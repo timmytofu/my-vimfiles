@@ -26,6 +26,3 @@ endfunction
 " so that enter closes the popup rather than losing the top option
 " and hanging around like it does now - who wants that?
 inoremap <silent> <CR> <C-r>=<SID>my_cr_function()<CR>
-
-call writefile(["yo"],"/tmp/fuck")
-call writefile([pumvisible()],"/tmp/fuck2")
